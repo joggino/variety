@@ -3,24 +3,11 @@
   "curly": true,
   "eqeqeq": true,
   "freeze": true,
+  "laxcomma": true,
   "globals": {
-    "__quiet": false,
-    "collection": false,
-    "print": false,
-    "db": false,
-    "tojson": false,
-    "ObjectId": false,
-    "BinData": false,
-    "DBQuery": false,
-    "printjson": false,
-
-    "query": true,
-    "limit": true,
-    "maxDepth": true,
-    "sort": true,
-    "outputFormat": true,
-    "numColumns" : true,
-    "persistResults": true
+    "require" : true,
+    "console" : true,
+    "process" : true
   },
   "latedef": true,
   "singleGroups": true,

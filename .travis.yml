@@ -7,4 +7,4 @@ install:
  - npm install jshint -g
 script:
  - jshint variety.js
- - cd test && mvn test
+ - jshint index.js
