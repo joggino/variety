@@ -1,6 +1,6 @@
 # Meet Variety File Save, a way to save your variety output###
 # CURRENTLY ALPHA #
-[![Build Status](https://travis-ci.org/variety/variety.svg?branch=master)](https://travis-ci.org/variety/variety)
+[![Build Status](https://travis-ci.org/joggino/variety-file-save.svg?branch=master)](https://travis-ci.org/joggino/variety-file-save)
 
 
 
