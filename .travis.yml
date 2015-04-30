@@ -6,5 +6,4 @@ services: mongodb
 install:
  - npm install jshint -g
 script:
- - jshint variety.js
  - jshint index.js
