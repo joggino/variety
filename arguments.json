@@ -1,0 +1,57 @@
+/* SAMPLE */
+
+{
+  "arguments" : [
+    {
+      "full" : "file", // full version (e.g. --file)
+      "short" : "f", // short version (e.g. -f)
+      "value" : true, // expects value (e.g. --file input)
+      "description" : "File for parse" // for help display
+    },
+    {
+      "full" : "overwrite", // required
+      "short" : "o", // required
+      "description" : "Should overwrite changes?" // required (if has help)
+    },
+    {
+      "full" : "database", // required
+      "short" : "db", // required
+      "value" : true,
+      "description" : "The database you wish to run on" // required (if has help)
+    },
+    {
+      "full" : "plugin", // required
+      "short" : "p", // required
+      "value" : true,
+      "description" : "The path to the plugin you wish to run" // required (if has help)
+    },
+    {
+      "full" : "collection", // required
+      "short" : "c", // required
+      "value" : true,
+      "description" : "The collection name of the which you wish to run on" // required (if has help)
+    },
+    {
+      "full" : "jsfile", // required
+      "short" : "js", // required
+      "value" : true,
+      "description" : "The path to variety " // required (if has help)
+    },
+    {
+      "full" : "file", // required
+      "short" : "f", // required
+      "value" : true,
+      "description" : "The path where you wish to save the file" // required (if has help)
+    },
+    {
+      "full" : "num", // required
+      "short" : "n", // required
+      "value" : true,
+      "description" : "The number of columns you want" // required (if has help)
+    }
+  ],
+  "defaults" : {
+    "help" : true, // displays help on --help
+    "helpExtras" : "Documentation can be fount at: " // extras (optional)
+  }
+}
